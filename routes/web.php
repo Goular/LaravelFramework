@@ -13,5 +13,8 @@
 //前台模块
 Route::get('/','App\Http\Controllers\IndexController@index');
 
+//验证码模块
+Route::any('/','App\Http\Controllers\CaptchaController@createImg');
+
 //登录模块
 Route::get('/login','App\Http\Controllers\LoginController@index');
