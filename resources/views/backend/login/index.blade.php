@@ -24,7 +24,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-<body class="hold-transition login-page" style="background:url(/image/bg-admin.jpg) repeat;">
+<body class="hold-transition login-page" style="background:url(/images/bg-admin.jpg) repeat;">
 <div class="login-box">
   <div class="login-logo">
     <a href="/adminlte/index2.html"><b>加工屋</b>后台系统</a>
