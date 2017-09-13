@@ -20,14 +20,14 @@ Route::get('/login','\App\Http\Controllers\LoginController@index');
 Route::get('/register','\App\Http\Controllers\RegisterController@index');
 
 //验证模块
-Route::group(['prefix' => 'validate'], function () {
+Route::group(['prefix' => 'verify'], function () {
     //验证码模块的使用
-    Route::get('/captcha/img','\App\Http\Controllers\Verify\CaptchaController@createImg');
-    Route::get('/captcha/imgUrl','\App\Http\Controllers\Verify\CaptchaController@createUrl');
-    Route::get('/captcha/imgHtml','\App\Http\Controllers\Verify\CaptchaController@createHtml');
+    Route::get('captcha/img','\App\Http\Controllers\Verify\CaptchaController@createImg');
+    Route::get('captcha/imgUrl','\App\Http\Controllers\Verify\CaptchaController@createUrl');
+    Route::get('captcha/imgHtml','\App\Http\Controllers\Verify\CaptchaController@createHtml');
 
     //验证短信发送模块的使用
-    Route::get('/sms/code/{id}','\App\Http\Controllers\Verify\SmsController@sendSms');
+    Route::get('sms/code/{id}','\App\Http\Controllers\Verify\SmsController@sendSms');
 });
 
 

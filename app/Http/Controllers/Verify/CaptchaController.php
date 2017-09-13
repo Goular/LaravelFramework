@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Verify;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 /**
  * 用于验证码内容的生成

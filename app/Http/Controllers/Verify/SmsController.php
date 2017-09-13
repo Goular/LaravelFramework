@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Verify;
 
+use App\Http\Controllers\Controller;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Http\Request;
 use Overtrue\EasySms\EasySms;
