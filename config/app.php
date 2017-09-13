@@ -120,7 +120,12 @@ return [
     |
     */
 
-    'log' => env('APP_LOG', 'single'),
+    'log' => env('APP_LOG', 'daily'),
+
+    /**
+     * 使用 daily 日志模式的时候，Laravel 默认最多为我们保留最近 5 天的日志，所以我们需要配置下面的变量
+     */
+    'log_max_files' => 30,
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
