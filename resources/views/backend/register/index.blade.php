@@ -27,7 +27,7 @@
 <body class="hold-transition register-page" style="background:url(/image/bg-admin.jpg) repeat;">
 <div class="register-box">
   <div class="register-logo">
-    <a href="/adminlte/index2.html"><b>加工屋</b></a>
+    <a href="/adminlte/index2.html"><b>加工屋</b>后台系统</a>
   </div>
 
   <div class="register-box-body">
