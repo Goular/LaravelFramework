@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Verify;
 
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Http\Request;
