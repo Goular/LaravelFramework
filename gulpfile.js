@@ -32,6 +32,17 @@ gulp.task('package-css', function() {
     .pipe(gulp.dest('public/build'));
 });
 
+//测试合并
+//值得注意的一点是:合并的内容存在覆盖现象，后面的内容会覆盖相同的前面的内容，所以我们需要将最新的内容放到后面
+//使用命令即可进行压缩合并:gulp package-css-2
+gulp.task('package-css-2', function() {
+    return gulp.src(['public/css/404.css', 'public/css/app.css', 'public/css/weui.css'])
+        .pipe(concat('book.css'))
+        .pipe(minifyCss())
+        .pipe(rename('book.min.css'))
+        .pipe(gulp.dest('public/build'));
+});
+
 // 压缩 js
 gulp.task('package-js', function() {
   return gulp.src(['public/js/jquery-1.11.2.min.js', 'public/js/swipe.min.js', 'public/js/book.js'])
