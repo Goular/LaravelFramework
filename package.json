@@ -13,9 +13,27 @@
     "axios": "^0.16.2",
     "bootstrap-sass": "^3.3.7",
     "cross-env": "^5.0.1",
+    "gulp": "^3.9.1",
     "jquery": "^3.1.1",
     "laravel-mix": "^1.0",
     "lodash": "^4.17.4",
     "vue": "^2.1.10"
-  }
+  },
+  "name": "laravelframework",
+  "description": "### 使用前需要执行的指令 <pre>     1.「公开磁盘」就是指你的文件将可被公开访问，默认下， public 磁盘使用 local 驱动且将文件存放在 storage/app/public 目录下。为了能通过网络访问，你需要创建 public/storage 到 storage/app/public 的符号链接。         php artisan storage:link </pre>",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goular/LaravelFramework.git"
+  },
+  "author": "Goular",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goular/LaravelFramework/issues"
+  },
+  "homepage": "https://github.com/Goular/LaravelFramework#readme"
 }
