@@ -32,4 +32,5 @@ Route::group(['prefix' => 'validate'], function () {
 
 
 
-
+//引入管理后台的路由管理
+include_once('admin.php');
