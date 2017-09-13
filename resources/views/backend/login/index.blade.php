@@ -27,7 +27,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="/adminlte/index2.html"><b>Admin</b>LTE</a>
+    <a href="/adminlte/index2.html"><b>加工屋</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
