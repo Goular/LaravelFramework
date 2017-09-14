@@ -31,7 +31,7 @@
   </div>
 
   <div class="register-box-body">
-    <p class="login-box-msg">Register a new membership</p>
+    <p class="login-box-msg">注册</p>
 
     <form action="/adminlte/index.html" method="post">
       <div class="form-group has-feedback">
