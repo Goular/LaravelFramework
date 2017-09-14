@@ -203,6 +203,9 @@ return [
 
         //验证码 https://github.com/mewebstudio/captcha
         Mews\Captcha\CaptchaServiceProvider::class,
+
+        //七牛云存储 Stroge封装
+        Overtrue\LaravelFilesystem\Qiniu\QiniuStorageServiceProvider::class,
     ],
 
     /*
