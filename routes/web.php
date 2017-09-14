@@ -15,9 +15,11 @@ Route::get('/','\App\Http\Controllers\IndexController@index');
 
 //登录模块
 Route::get('/login','\App\Http\Controllers\LoginController@index');
+Route::post('/login','\App\Http\Controllers\LoginController@login');
 
 //注册模块
 Route::get('/register','\App\Http\Controllers\RegisterController@index');
+Route::post('/register','\App\Http\Controllers\RegisterController@register');
 
 //验证模块
 Route::group(['prefix' => 'verify'], function () {

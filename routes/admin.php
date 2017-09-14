@@ -4,6 +4,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/', '\App\Admin\Controllers\IndexController@index');
     //登录展示
     Route::get('/login', '\App\Admin\Controllers\LoginController@index');
+    Route::get('/login2', '\App\Admin\Controllers\LoginController@login');
     //登录行为
     Route::post('/login', '\App\Admin\Controllers\LoginController@login');
     //注册展示
