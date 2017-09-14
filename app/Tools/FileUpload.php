@@ -23,7 +23,7 @@ class FileUpload
     /**
      * 创建文件
      * @param $fileName 文件名称[这个最好带文件尾缀]
-     * @param $contents 保存的字符串
+     * @param $contents 保存的内容，即$file资源,二进制资源
      *
      * 测试代码:
      * $fileUpload = new FileUpload();
