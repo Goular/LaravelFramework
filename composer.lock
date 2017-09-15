@@ -1226,16 +1226,16 @@
         },
         {
             "name": "laravel/scout",
-            "version": "v3.0.7",
+            "version": "v3.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "b899432186096dacc90700d5320d95cc3db1efe1"
+                "reference": "681c15a26bbc973528af2e77e0bb61981dc07206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/laravel/scout/b899432186096dacc90700d5320d95cc3db1efe1.zip",
-                "reference": "b899432186096dacc90700d5320d95cc3db1efe1",
+                "url": "https://files.phpcomposer.com/files/laravel/scout/681c15a26bbc973528af2e77e0bb61981dc07206.zip",
+                "reference": "681c15a26bbc973528af2e77e0bb61981dc07206",
                 "shasum": ""
             },
             "require": {
@@ -1287,7 +1287,7 @@
                 "laravel",
                 "search"
             ],
-            "time": "2017-07-12T18:42:43+00:00"
+            "time": "2017-09-14T12:32:30+00:00"
         },
         {
             "name": "laravel/socialite",
