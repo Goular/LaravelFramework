@@ -1,5 +1,5 @@
 <?php
-namespace App\Tools;
+namespace App\Tools\Storage;
 /**
  * 用于处理文件上传的处理类
  * Class FileUpload
