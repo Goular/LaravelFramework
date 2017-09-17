@@ -1,3 +1,4 @@
 # Laravel用于执行任务调度的对外Crontab配置指令
 # artisan文件位置有各自的服务器锁决定
+# 配置当前的文件的执行权限为755
 * * * * * php /webRoot/jiagongwu/artisan schedule:run >> /dev/null 2>&1
